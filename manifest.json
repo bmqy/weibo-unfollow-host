@@ -11,7 +11,10 @@
 "icons": {
 	"128": "icon_L.png",
 	"48": "icon_s.png"
-	},	
+	},
+  "web_accessible_resources": [
+      "qxgzzcr.js"
+  ], 	
 "manifest_version": 2,
 "description": "取消新浪微博话题页面中，发表评论时的默认勾选“同时关注主持人。",
 "permissions": ["tabs","http://weibo.com/*", "http://www.weibo.com/*"]
