@@ -1,0 +1,18 @@
+﻿{
+"name": "\u53d6\u6d88\u5173\u6ce8\u4e3b\u6301\u4eba\uff08\u65b0\u6d6a\u5fae\u535a\uff09",
+"short_name": "\u53d6\u6d88\u5173\u6ce8\u4e3b\u6301\u4eba",
+"version": "1.1",
+"content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery-1.11.1.min.js", "qxgzzcr.js" ],
+      "matches": [ "http://weibo.com/*", "http://www.weibo.com/*"],
+      "run_at": "document_end"
+   } ],
+"icons": {
+	"128": "icon_L.png",
+	"48": "icon_s.png"
+	},	
+"manifest_version": 2,
+"description": "\u53d6\u6d88\u65b0\u6d6a\u5fae\u535a\u8bdd\u9898\u9875\u9762\u4e2d\uff0c\u53d1\u8868\u8bc4\u8bba\u65f6\u7684\u9ed8\u8ba4\u52fe\u9009\u201c\u540c\u65f6\u5173\u6ce8\u4e3b\u6301\u4eba\u201d",
+"permissions": ["tabs","http://weibo.com/*", "http://www.weibo.com/*"]
+}
